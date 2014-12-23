@@ -154,7 +154,7 @@ exec("chown -R apache:apache $elgg_docroot");
  */
 $temp_dir = tempdir();
 echo "updating language...\n";
-exec("/usr/bin/svn co --username asd --password asd http://svn.elgg-rus.onlineelectronics.ru $temp_dir");
+exec("git clone https://github.com/digecon/elgg_rus $temp_dir");
 recurse_copy($temp_dir, realpath($elgg_docroot));
 rrmdir($temp_dir);
 echo "language updated\n";
