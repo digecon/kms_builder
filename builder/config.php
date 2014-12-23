@@ -47,13 +47,11 @@ $builder_config = array(
             ),                     
             'kms' => array(
                 'type' => 'svn',
-                'params' => '--username asd --password asd',
-                'url' => 'http://svn.kms-elgg-module.onlineelectronics.ru/trunk/'
+                'url' => 'https://github.com/digecon/kms'
             ),
             'chili' => array(
-                'type' => 'svn',
-                'params' => '--username asd --password asd',
-                'url' => 'http://svn.chili.onlineelectronics.ru/trunk/'
+                'type' => 'git',
+                'url' => 'https://github.com/digecon/chiliproject_module'
             ),
             /*'polls' => array(
                 'type' => 'git',
@@ -66,7 +64,7 @@ $builder_config = array(
             ),*/
             'webinar' => array(
                 'type' => 'git',
-                'url' => 'https://github.com/serega3000/webinar'
+                'url' => 'https://github.com/bouland/webinar'
             ),
             'widget_manager' => array(
                 'type' => 'git',
