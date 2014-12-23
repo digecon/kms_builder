@@ -18,7 +18,8 @@ $builder_config = array(
             ),
             'event_manager' => array(
                 'type' => 'git',
-                'url' => 'https://github.com/ColdTrick/event_manager'
+                'url' => 'https://github.com/ColdTrick/event_manager',
+				'branch' => '1.8'
             ),
             'extended_tinymce' => array(
                 'type' => 'git_subfolder',
@@ -31,7 +32,8 @@ $builder_config = array(
             ),                        
             'hypeGallery' => array(
                 'type' => 'git',
-                'url' => 'https://github.com/hypeJunction/hypeGallery'
+                'url' => 'https://github.com/hypeJunction/hypeGallery',
+				'branch' => '2.1.0'
             ),                        
             'hypeForum' => array(
                 'type' => 'git',
@@ -68,7 +70,8 @@ $builder_config = array(
             ),
             'widget_manager' => array(
                 'type' => 'git',
-                'url' => 'https://github.com/ColdTrick/widget_manager'
+                'url' => 'https://github.com/ColdTrick/widget_manager',
+				'branch' => 'elgg_1.8'
             ),
             'dokuwiki' => array(
                 'type' => 'git',
