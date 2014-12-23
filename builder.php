@@ -120,7 +120,8 @@ foreach($builder_config['modules']['install'] as $module => $module_config)
         switch($module_config['type'])
         {
             case 'git':
-                passthru("/usr/bin/git clone {$module_config['url']} $mod_path");
+				$branchtext = isset($module_config['branch']) ? "--branch {$module_config['branch']} " : "";								
+                passthru("/usr/bin/git clone {$branchtext}{$module_config['url']} $mod_path");
                 break;
             case 'git_subfolder':       
                 $repo_path = $mod_path."/rep/";
