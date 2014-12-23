@@ -45,7 +45,8 @@ $builder_config = array(
             ),                        
             'hypeInbox' => array(
                 'type' => 'git',
-                'url' => 'https://github.com/hypeJunction/hypeInbox'
+                'url' => 'https://github.com/hypeJunction/hypeInbox',
+				'branch' => 'elgg1.8'
             ),                     
             'kms' => array(
                 'type' => 'git',
