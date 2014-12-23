@@ -46,7 +46,7 @@ $builder_config = array(
                 'url' => 'https://github.com/hypeJunction/hypeInbox'
             ),                     
             'kms' => array(
-                'type' => 'svn',
+                'type' => 'git',
                 'url' => 'https://github.com/digecon/kms'
             ),
             'chili' => array(
